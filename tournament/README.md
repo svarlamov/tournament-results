@@ -1,8 +1,16 @@
-# Nanodegree-P2-Tournament
-Repository for Project 2 of the Udacity Full-Stack Developer Nanodegree (Tournament Results)
+-- The Second Project in the Full Stack Web Developer Nanodegree Program --
+This little python app uses PostgreSQL to manage a Swiss System tournament
 
-#Instructions
-Run the following command in the project directory:
-`python tournament_test.py`
+-- Install --
+1) Have Python 2.X Installed
+2) Have PostgreSQL Installed
+3) Create a DB called, "tournament" by executing the following few commands in the project's directory
+	psql
+	createdb tournament
+	\c tournament
+	\i tournament.sql
 
-It is assumed that there is a PosgreSQL database with the name 'tournament' already created.
+-- Running --
+1) Ensure you have all of the prerequisites, and have executed all of the commands in the "installing" portion
+2) Execute the tournament_test.py by executing the following command inside of the project's directory
+	python tournamet_test.py
